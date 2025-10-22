@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SpiceUp! — Contact</title>
+  <link rel="icon" href="img/favicon.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header" role="banner">
+    <div class="nav-inner">
+      <div class="brand">SpiceUp!</div>
+      <nav class="nav-links" role="navigation" aria-label="Main Navigation">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+    <button id="menu-btn" class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <svg width="24" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M3 6h18M3 12h18M3 18h18" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </button>
+
+    </div>
+
+    <div class="mobile-nav container">
+      <a href="index.html">Home</a> 
+      <a href="shop.html">Shop</a> 
+      <a href="about.html">About</a> 
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section class="hero container" aria-labelledby="contact-hero">
+      <div class="hero-content">
+        <h1 id="contact-hero">Got a burning question? (We mean that in the nicest way.)</h1>
+        <p>Need help choosing a chili? Want bulk seeds? Or just want to share a spicy recipe — we're all ears (and napkins).</p>
+        <a class="cta" href="#form">Send a message</a>
+      </div>
+      <div class="hero-image" aria-hidden="true">
+        <img src="img/hero_contact.png" alt="Singular chili">
+      </div>
+    </section>
+
+    <!-- Contact content -->
+    <section id="form" class="section container" aria-labelledby="get-in-touch">
+      <h2 id="get-in-touch">Reach out</h2>
+      <div class="contact-grid" style="margin-top:1rem;">
+        <div class="form-card">
+          <form action="#" method="post" novalidate>
+            <fieldset>
+              <legend>Send us a message</legend>
+
+              <label for="name">Your name</label>
+              <input id="name" name="name" type="text" required placeholder="Pepper Lover">
+
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required placeholder="you@example.com">
+
+              <label for="fav">Favorite chili</label>
+              <select id="fav" name="favorite">
+                <option>Jalapeño</option>
+                <option>Habanero</option>
+                <option>Carolina Reaper</option>
+                <option>Mixed Pack</option>
+              </select>
+
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell us your spicy story..."></textarea>
+
+              <div style="display:flex;gap:0.7rem;margin-top:0.5rem;">
+                <button class="btn-primary" type="submit">Submit</button>
+                <button type="reset" class="btn-ghost">Reset</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+
+        <aside class="form-card" aria-labelledby="contact-info">
+          <h3 id="contact-info" style="margin-top:0">Other ways to reach us</h3>
+          <p><strong>Email:</strong> <a href="mailto:hello@spiceup.example">hello@spiceup.example</a></p>
+          <p><strong>Phone:</strong> <a class="tel" href="tel:+639123456789">+63 912 345 6789</a></p>
+
+          <p style="margin-top:0.6rem">We aim to reply within 1-2 business days. If you can't wait, call us — we love a good spicy chat.</p>
+
+          <div style="margin-top:1rem">
+            <strong>Address:</strong>
+            <p style="margin:0.3rem 0 0 0">SpiceUp! HQ Mexico — Online & Everywhere</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+<!-- Footer -->
+<footer class="footer" role="contentinfo">
+  <div class="foot-inner">
+    <div>© 2025 SpiceUp! — All rights reserved</div>
+    <div class="socials">
+      <span class="social-label">Follow us:</span>
+     <a href="#https://www.instagram.com/" aria-label="Instagram"> <img src="img/insta.png" alt="Instagram" class="social-icon"></a>
+      <a href="https://www.facebook.com/" aria-label="Facebook"> <img src="img/facebook.png" alt="Facebook" class="social-icon"></a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

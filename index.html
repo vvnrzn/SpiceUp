@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SpiceUp! — Home</title>
+  <link rel="icon" href="img/favicon.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header" role="banner">
+    <div class="nav-inner">
+      <div class="brand">SpiceUp!</div>
+      <nav class="nav-links" role="navigation" aria-label="Main Navigation">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+    <button id="menu-btn" class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <svg width="24" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M3 6h18M3 12h18M3 18h18" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </button>
+
+    </div>
+
+    <div class="mobile-nav container">
+      <a href="index.html">Home</a> 
+      <a href="shop.html">Shop</a> 
+      <a href="about.html">About</a> 
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <h1 id="hero-title">Life's too bland — grow your own spice squad.</h1>
+        <p>SpiceUp! is where seed nerds and flavor daredevils unite. From polite jalapeños to theatrically dramatic reapers — pick a plant that matches your personality.</p>
+        <a class="cta" href="shop.html">Let's Get Spicy</a>
+      </div>
+      <div class="hero-image" aria-hidden="true">
+        <img src="img/hero_index.jpg" alt="Jars of spice">
+      </div>
+    </section>
+
+    <!-- WHY CHILI -->
+    <section class="section container" aria-labelledby="why-title">
+      <h2 id="why-title">So, why chili?</h2>
+      <div style="display:flex;gap:1rem;flex-direction:column;align-items:center;">
+        <p style="max-width:900px;text-align:center;font-size:1.05rem;">
+          Chilies are tiny thrill machines. They add zing, culture, memory, and a little drama to any dish. Plant some, water them (don't drown them), and watch your kitchen evolve into a global spice market.
+        </p>
+        <div style="width:100%;margin-top:1rem;border-radius:12px;overflow:hidden;box-shadow:0 8px 20px rgba(0,0,0,0.06)">
+          <img src="img/chili_index.jpg" alt="Colorful peppers" style="width:100%;display:block;object-fit:cover;height:280px;">
+        </div>
+      </div>
+    </section>
+
+    <!-- LINE-UP TEASER --> 
+<section class="section container" aria-labelledby="lineup-title">
+  <h2 id="lineup-title">Meet the line-up</h2>
+  <div class="card-row">
+    
+    <a href="shop.html#scoville" class="card-link">
+      <div class="card">
+        <h3>Mild & Friendly  &#127798;</h3>
+        <p>Chilis that whisper: “I like flavor, not theatrics.” Perfect for everyday cooking.</p>
+      </div>
+    </a>
+
+    <a href="shop.html#scoville" class="card-link">
+      <div class="card">
+        <h3>Spicy & Sassy  &#127798; &#127798;</h3>
+        <p>Has opinions. Will open your sinuses. Great for tacos and bragging rights.</p>
+      </div>
+    </a>
+
+    <a href="shop.html#scoville" class="card-link">
+      <div class="card">
+        <h3>Wild & Unhinged  &#127798; &#127798; &#127798;</h3>
+        <p>For the brave storytellers and people who bring milk to dinner just in case.</p>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+
+    <!-- STATS -->
+    <section class="section" style="background:var(--muted);">
+      <div class="container">
+        <h2>How SpiceUp! stacks up</h2>
+        <div class="stat-grid" style="margin-top:1rem">
+          <div class="stat-item"><h3>25+</h3><p>Chili personalities</p></div>
+          <div class="stat-item"><h3>7+</h3><p>Countries represented</p></div>
+          <div class="stat-item"><h3>∞</h3><p>Ways to spice your life</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WELCOME -->
+    <section class="section container" style="text-align:center;">
+      <h2>Welcome to our table</h2>
+      <p style="max-width:900px;margin:0.75rem auto 1rem auto">We grow seeds, you grow memories. Whether you're planting for flavor or sheer spectacle — we've got something for you.</p>
+      <a class="btn-primary" href="shop.html">Shop Seeds</a>
+    </section>
+  </main>
+
+<!-- Footer -->
+<footer class="footer" role="contentinfo">
+  <div class="foot-inner">
+    <div>© 2025 SpiceUp! — All rights reserved</div>
+    <div class="socials">
+      <span class="social-label">Follow us:</span>
+      <a href="#https://www.instagram.com/" aria-label="Instagram"> <img src="img/insta.png" alt="Instagram" class="social-icon"></a>
+      <a href="https://www.facebook.com/" aria-label="Facebook"> <img src="img/facebook.png" alt="Facebook" class="social-icon"></a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
